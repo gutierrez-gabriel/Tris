@@ -1,8 +1,8 @@
 #-------------------------------------------------------------------------------
-# Name: gabriel gutierrez       ejercicio 2
+# Name: gabriel gutierrez           ejercicio 3 opcion 2
 #
 # Author:      gabriel
-#
+
 # Created:     26/09/2022
 # Copyright:   (c) aspro 2022
 # Licence:     <your licence>
