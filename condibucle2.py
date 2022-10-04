@@ -13,19 +13,20 @@ def main():
     num2=int(input("ingrese otro numero: "))
     print("sumar, restar, multiplicar")
     opcion=input("ingrese una opcion: ")
-    while opcion == 'suma', or 'resta', or 'multiplicacio':
+
+    while (opcion != 'sumar') and (opcion != 'restar') and (opcion != 'multiplicar') :
         opcion=input("ingrese una opcion: ")
-        continue
+
     if (opcion == "sumar"):
-        print('opcion elegida: '+ op)
+        print('opcion elegida: '+ opcion)
         resultado= num1+num2
         print(resultado)
     elif (opcion == "restar"):
-        print('opcion elegida: '+ op)
+        print('opcion elegida: '+ opcion)
         resultado1= num1-num2
         print(resultado1)
-    elif (opcion == "multiplicacion"):
-        print("multiplicar"+ op)
+    elif (opcion == "multiplicar"):
+        print('opcion elegida: '+ opcion)
         resultado2= num1*num2
         print(resultado2)
 
